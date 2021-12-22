@@ -8,7 +8,7 @@ public class Gambler_Solution {
     /*
     Use Case 2
     */
-    public void gamblingSolutionUC2(){
+    public void gambler_SolutionUC2(){
         double random_num = Math.random();
         int remg_amt = INITIAL_BET_STAKE;
         if (random_num>0.5){
@@ -24,7 +24,7 @@ public class Gambler_Solution {
     /*
     Use case 3
     */
-    public void gamblingSolutionUC3(int margin_perct){
+    public void gambler_SolutionUC3(int margin_perct){
         double uppr_margin = INITIAL_BET_STAKE + margin_perct*INITIAL_BET_STAKE/100;
         double lowr_margin = INITIAL_BET_STAKE - margin_perct*INITIAL_BET_STAKE/100;
         double avail_amt = INITIAL_BET_STAKE;
@@ -42,7 +42,7 @@ public class Gambler_Solution {
     /*
     Use case 4
     */
-    public void gamblingSolutionUC4(){
+    public void gambler_SolutionUC4(){
         // Assume 100 bets played every day
         int NO_OF_BETS = 100;
         //margin = 50%
@@ -84,7 +84,7 @@ public class Gambler_Solution {
     /*
     Use case 5 
     */
-    public void gamblingSolutionProblemUC5(){
+    public void gambler_SolutionUC5(){
         // Assume 100 bets played every day
         int NO_OF_BETS = 100;
         //margin = 50%
@@ -125,7 +125,7 @@ public class Gambler_Solution {
     /*
     Use case 6: Luckiest and unluckiest day
     */
-public void gamblingSolutionUC6(){
+public void gambler_SolutionUC6(){
         // Assume 100 bets played every day
         int NO_OF_BETS = 100;
         //margin = 50%
@@ -171,7 +171,7 @@ public void gamblingSolutionUC6(){
     /*
     Use case 7 : if wins should he play or not
     */
-    public void gamblingSolutionUC7(){
+    public void gambler_SolutionUC7(){
         // Assume 100 bets played every day
         int NO_OF_BETS = 100;
         //margin = 50%
@@ -226,7 +226,7 @@ public void gamblingSolutionUC6(){
 
     // Main method
     public static void main(String []args){
-        GamblingSituationProblem gsp = new GamblingSituationProblem();
+        Gambler_Solution gsp = new Gambler_Soltuion();
         gsp.gamblingSituationProblemUC7();      
     }
 }
