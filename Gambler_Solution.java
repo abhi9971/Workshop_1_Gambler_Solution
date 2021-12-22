@@ -227,6 +227,6 @@ public void gambler_SolutionUC6(){
     // Main method
     public static void main(String []args){
         Gambler_Solution gsp = new Gambler_Soltuion();
-        gsp.gamblingSituationProblemUC7();      
+        gsp.gambler_SolutionUC7();      
     }
 }
